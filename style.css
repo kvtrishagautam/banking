@@ -15,11 +15,16 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background-color: #000;}
+    background-color: #000;
+    color: #fff;
+    margin: 2rem 4rem;
+
+}
 
 /* navbar starts */
 .navbar {
-    padding: 2rem 9rem;
+    padding: 1rem 5rem;
+    padding-bottom: 3rem;
 }
 
 .nav {
@@ -61,7 +66,6 @@ body {
 .hero{
     display: flex;
     color: #fff;
-    padding: 2rem 4rem;
     justify-content: space-between;
     gap: 3rem;
 }
@@ -169,3 +173,178 @@ body {
 }
 /* hero section ends here  */
 
+/* our products section starts here  */
+.product{
+    margin: 5rem 0rem;
+}
+.product-box{
+    display: flex;
+}
+.product-box-left-1{
+    width: 70%;
+}
+.product-box-left-1 h2{
+    font-size: 2.5rem;
+}
+.product-box-left-1 p{
+    color: #B3B3B3;
+}
+.product-box-left-2{
+    display: flex;
+    align-self: flex-end;
+    gap: 1rem;
+    width: fit-content;
+    height: fit-content;
+    background-color: #1C1C1C;
+    padding: 0.6rem 1rem;
+    border-radius: 3rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+.product-left-2:nth-child(1){
+    background-color: #CAFF33;
+    padding: 0.9rem;
+    border-radius: 3rem;
+    color: #000;
+}
+.product-box:nth-child(2){
+    display: flex;
+    /* gap: 5rem; */
+    margin: 3rem 2rem; 
+}
+.product-box-des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-right: 0.1rem solid #262626;   
+    cursor: pointer;
+}
+.product-box-des:hover{
+    border: 0.15rem solid #B3B3B3;
+}
+.product-box-des img{
+    width: 6rem;
+}
+.product-box-des p{
+    color: #B3B3B3;
+    padding: 0rem 3rem;
+}
+.product-box-des:nth-child(3){
+    border: none;
+}
+.product-box-des:nth-child(3):hover{
+    border: 0.15rem solid #B3B3B3;
+}
+/* our products ends here  */
+
+/* use cases starts here  */
+.useCases{
+    margin-top: 8rem;
+}
+.useCases-box-box h2{
+    font-size: 2.5rem;
+    color: #CAFF33;
+}
+.useCases-box-box p{
+    color: #B3B3B3;
+    padding-top: -1rem;
+}
+.useCases-box{
+    display:flex;
+    margin-top: 3rem;
+
+}
+.useCases-box-2-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 50%;
+    background-image: url(./assets/useCasesleftbg.svg);
+    background-repeat: no-repeat;
+    /* justify-self: center; */
+    align-items: center;
+    justify-items: center;
+    padding: 2rem;
+}
+
+.useCases-subboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A1A;
+    padding: 1.9rem 3.8rem;
+    padding-top: 1.3rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.useCases-subboxes img{
+    width: 4.5rem;
+}
+.useCases-subboxes:nth-child(1){
+    /* padding: 1.5rem 4.3rem; */
+    padding: 1.1rem 3.8rem;
+    padding-top: 0.7rem;
+}
+.useCases-box-2-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.useCases-subboxes-2 h2{
+    color: #CAFF33;
+}
+.useCases-subboxes-2 p{
+    color: #B3B3B3;
+}
+.useCases-subboxes-2:nth-child(3){
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.useCases-text{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    border-right: 0.2rem dashed #262626;
+}
+.useCases-text:nth-child(3){
+    border: none;
+}
+.useCases-subboxes-2:nth-child(4){
+    background-color: #1C1C1C;
+    width: fit-content;
+    padding: 0.5rem 1.9rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: #fff;
+}
+.useCases-box:nth-child(3){
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5rem;
+    gap: 2rem;
+    .useCases-box-2-1{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 50%;
+        background-image: url(./assets/useCasesleftbg.svg);
+        background-repeat: no-repeat;
+        /* justify-self: center; */
+        align-items: center;
+        justify-items: center;
+        padding: 2rem;
+        background-position-x: right;
+    }
+    .useCases-subboxes:nth-child(2){
+        /* padding: 1.5rem 4.3rem; */
+        padding: 2rem 2.2rem;
+    }  
+    .useCases-subboxes:nth-child(1){
+        padding: 2rem 2rem;
+    }
+}
+/* use Cases ends here  */
