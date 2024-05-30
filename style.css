@@ -537,3 +537,43 @@ body {
     align-items: center; 
 }
 /* FAQs end here  */
+
+/* Testimonials start here  */
+.testimonials{
+    margin-top: 7rem;
+}
+.testimonial-box{
+    display: flex;
+}
+.testimonials-box-left-1 {
+    width: 70%;
+}
+
+.testimonials-box-left-1 h2 {
+    font-size: 2.5rem;
+}
+
+.testimonials-box-left-1 p {
+    color: #B3B3B3;
+}
+
+.testimonials-box-left-2 {
+    display: flex;
+    align-self: flex-end;
+    gap: 1rem;
+    width: fit-content;
+    height: fit-content;
+    background-color: #1C1C1C;
+    padding: 0.6rem 1rem;
+    border-radius: 3rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.testimonials-left-2:nth-child(1) {
+    background-color: #CAFF33;
+    padding: 0.9rem;
+    border-radius: 3rem;
+    color: #000;
+}
