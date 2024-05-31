@@ -488,15 +488,17 @@ body {
 .faq-box-2 {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 2rem;
+    gap: 4rem;
     margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .faq-subbox {
     padding: 1rem 2rem;
     border: 0.1rem solid #262626;
     border-radius: 0.5rem;
-    
+    line-height: 2rem;
 }
 
 .faq-subbox hr {
@@ -506,26 +508,30 @@ body {
 }
 
 .fade {
-    background: -webkit-linear-gradient(#B3B3B3,#191919);
+    background: -webkit-linear-gradient(#B3B3B3, #191919);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+
 }
-.faq-subbox:nth-child(3){
+
+.faq-subbox:nth-child(3) {
     border: 0.1rem solid #262626;
     border-image: linear-gradient(#262626, #000) 30;
-    
+
 }
-.faq-subbox:nth-child(4){
+
+.faq-subbox:nth-child(4) {
     border: 0.1rem solid #262626;
     border-image: linear-gradient(#262626, #000) 30;
 }
-.faq-main{
+
+.faq-main {
     display: flex;
     justify-content: center;
 }
-.faq-box-3{
+
+.faq-box-3 {
     display: grid;
     grid-template-columns: auto auto;
     gap: 1rem;
@@ -534,17 +540,21 @@ body {
     border-radius: 2rem;
     width: fit-content;
     background-color: #1C1C1C;
-    align-items: center; 
+    align-items: center;
+    cursor: pointer;
 }
+
 /* FAQs end here  */
 
 /* Testimonials start here  */
-.testimonials{
+.testimonials {
     margin-top: 7rem;
 }
-.testimonial-box{
+
+.testimonial-box {
     display: flex;
 }
+
 .testimonials-box-left-1 {
     width: 70%;
 }
@@ -577,3 +587,56 @@ body {
     border-radius: 3rem;
     color: #000;
 }
+
+.testimonials-box-2 {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.testimonials-box-2 img {
+    cursor: pointer;
+}
+
+.test-mainbox {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 4rem;
+    text-align: center;
+    line-height: 2rem;
+
+}
+
+.test-box-2-2 h4 {
+    color: #CAFF33;
+    font-size: larger;
+    padding-top: 1.5rem;
+}
+
+.test-box-2-2:nth-child(1) {
+    h4 {
+        padding-top: 3.5rem;
+        color: #CAFF33; 
+    } 
+
+    background: linear-gradient(to right, #101010, #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    img{
+
+    }
+}
+
+.test-box-2-2 p {
+    padding-top: 1rem;
+}
+
+.test-box-2-2:nth-child(3) {
+    background: linear-gradient(to left, #101010, #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Testimonials ends here  */
