@@ -17,7 +17,7 @@ body {
     font-style: normal;
     background-color: #000;
     color: #fff;
-    margin: 2rem 4rem;
+    /* margin: 2rem 4rem; */
 
 }
 
@@ -25,6 +25,7 @@ body {
 .navbar {
     padding: 1rem 5rem;
     padding-bottom: 3rem;
+    margin: 1rem 4rem;
 }
 
 .nav {
@@ -54,12 +55,15 @@ body {
     color: #fff;
     align-items: center;
 }
-
+.nav-signup{
+    cursor: pointer;
+}
 .nav-login {
     border-radius: 2rem;
     background-color: #CAFF33;
     padding: 1rem 2rem;
     color: black;
+    cursor: pointer;
 }
 
 /* navbar ends */
@@ -70,6 +74,7 @@ body {
     color: #fff;
     justify-content: space-between;
     gap: 3rem;
+    margin: 2rem 4rem;
 }
 
 .hero-box {
@@ -124,7 +129,7 @@ body {
 
 .hero-img {
     position: absolute;
-    left: 24rem;
+    left: 23rem;
     /* opacity: 70%; */
     z-index: -2;
 }
@@ -142,7 +147,7 @@ body {
     width: fit-content;
     position: absolute;
     z-index: 1;
-    top: 9rem;
+    top: 9.5rem;
     right: 29rem;
 }
 
@@ -186,6 +191,9 @@ body {
 /* hero section ends here  */
 
 /* our products section starts here  */
+.product-sec{
+    margin: 2rem 4rem;
+}
 .product {
     margin: 5rem 0rem;
 }
@@ -266,6 +274,9 @@ body {
 /* our products ends here  */
 
 /* use cases starts here  */
+.useCases-sec{
+    margin: 2rem 4rem;
+}
 .useCases {
     margin-top: 8rem;
 }
@@ -394,6 +405,9 @@ body {
 /* use Cases ends here  */
 
 /* features starts here  */
+.features-sec{
+    margin: 2rem 4rem;
+}
 .features {
     margin-top: 8rem;
 }
@@ -473,6 +487,9 @@ body {
 /* features ends here  */
 
 /* FAQs starts here  */
+.faq-sec{
+    margin: 2rem 4rem;
+}
 .faq {
     margin-top: 8rem;
 }
@@ -547,6 +564,9 @@ body {
 /* FAQs end here  */
 
 /* Testimonials start here  */
+.testimonial-sec{
+    margin: 2rem 4rem;
+}
 .testimonials {
     margin-top: 7rem;
 }
@@ -640,3 +660,104 @@ body {
     -webkit-text-fill-color: transparent;
 }
 /* Testimonials ends here  */
+
+/* open account box starts here  */
+.openAcc-sec{
+    margin: 2rem 4rem;
+}
+.openAcc{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 7rem;
+    display: flex;
+    background-image: url(./assets/transactionbg.png);
+    padding: 1.5rem 3rem;
+    gap: 7rem;
+    border-radius: 2rem;
+    border: 0.2rem solid #262626;
+}
+.openAcc-box h2{
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+.openAcc-box p{
+    color: #B3B3B3;
+}
+.openAcc-box:nth-child(2){
+    display: flex;
+    align-items: center;
+    width: 20%;
+    p{
+        color: #1C1C1C;
+        background-color: #CAFF33;
+        padding: 1rem;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+}
+
+/* open acc ends here  */
+
+/* footer starts here  */
+footer{
+    background-color: #1C1C1C;
+    padding: 3rem;
+}
+footer hr{
+    width: 100%;
+    border: 1px solid #262626;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.foot-box{
+    display: flex;
+    flex-direction: column;
+}
+.foot-1{
+    display: flex;
+    justify-content: center;
+}
+.foot-1 img{
+    width: 10rem;
+}
+.foot-2 ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.foot-2 ul li a{
+    text-decoration: none;
+    color: #E4E4E7;
+    cursor: pointer;
+}
+.foot-3{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.foot-icons{
+    display: flex;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+.foot-4{
+    padding: 1.5rem;
+}
+.foot-4-4{
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    color: #B3B3B3;
+}
+.foot-left-4 img{
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
