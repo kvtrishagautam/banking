@@ -11,6 +11,13 @@ function saveData(){
         return v.email==email && v.password==password
     })){
         alert("login successful!")
+        let cur_user=user_records.filter((v)=>{
+            return v.email==email && v.password==password
+        })[0]
+
+        localStorage.setItem("email",cur_user.email);
+        localStorage.setItem("password",cur_user.password);
+        window.location.href="dashboard.html"
     }
     else{
         alert("unsuccesful")
