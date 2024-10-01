@@ -55,15 +55,25 @@ body {
     color: #fff;
     align-items: center;
 }
-.nav-signup{
+
+.nav-signup {
     cursor: pointer;
+
 }
+.nav-signup a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .nav-login {
     border-radius: 2rem;
     background-color: #CAFF33;
     padding: 1rem 2rem;
     color: black;
     cursor: pointer;
+}
+.nav-login a{
+    text-decoration: none;
 }
 
 /* navbar ends */
@@ -191,9 +201,10 @@ body {
 /* hero section ends here  */
 
 /* our products section starts here  */
-.product-sec{
+.product-sec {
     margin: 2rem 4rem;
 }
+
 .product {
     margin: 5rem 0rem;
 }
@@ -274,9 +285,10 @@ body {
 /* our products ends here  */
 
 /* use cases starts here  */
-.useCases-sec{
+.useCases-sec {
     margin: 2rem 4rem;
 }
+
 .useCases {
     margin-top: 8rem;
 }
@@ -405,9 +417,10 @@ body {
 /* use Cases ends here  */
 
 /* features starts here  */
-.features-sec{
+.features-sec {
     margin: 2rem 4rem;
 }
+
 .features {
     margin-top: 8rem;
 }
@@ -487,9 +500,10 @@ body {
 /* features ends here  */
 
 /* FAQs starts here  */
-.faq-sec{
+.faq-sec {
     margin: 2rem 4rem;
 }
+
 .faq {
     margin-top: 8rem;
 }
@@ -564,9 +578,10 @@ body {
 /* FAQs end here  */
 
 /* Testimonials start here  */
-.testimonial-sec{
+.testimonial-sec {
     margin: 2rem 4rem;
 }
+
 .testimonials {
     margin-top: 7rem;
 }
@@ -637,16 +652,15 @@ body {
 .test-box-2-2:nth-child(1) {
     h4 {
         padding-top: 3.5rem;
-        color: #CAFF33; 
-    } 
+        color: #CAFF33;
+    }
 
     background: linear-gradient(to right, #101010, #fff);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    img{
 
-    }
+    img {}
 }
 
 .test-box-2-2 p {
@@ -659,13 +673,15 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 /* Testimonials ends here  */
 
 /* open account box starts here  */
-.openAcc-sec{
+.openAcc-sec {
     margin: 2rem 4rem;
 }
-.openAcc{
+
+.openAcc {
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 7rem;
@@ -676,18 +692,22 @@ body {
     border-radius: 2rem;
     border: 0.2rem solid #262626;
 }
-.openAcc-box h2{
+
+.openAcc-box h2 {
     font-weight: normal;
     font-size: 1.8rem;
 }
-.openAcc-box p{
+
+.openAcc-box p {
     color: #B3B3B3;
 }
-.openAcc-box:nth-child(2){
+
+.openAcc-box:nth-child(2) {
     display: flex;
     align-items: center;
     width: 20%;
-    p{
+
+    p {
         color: #1C1C1C;
         background-color: #CAFF33;
         padding: 1rem;
@@ -699,30 +719,36 @@ body {
 /* open acc ends here  */
 
 /* footer starts here  */
-footer{
+footer {
     background-color: #1C1C1C;
     padding: 3rem;
 }
-footer hr{
+
+footer hr {
     width: 100%;
     border: 1px solid #262626;
 }
-.footer{
+
+.footer {
     display: flex;
     flex-direction: column;
 }
-.foot-box{
+
+.foot-box {
     display: flex;
     flex-direction: column;
 }
-.foot-1{
+
+.foot-1 {
     display: flex;
     justify-content: center;
 }
-.foot-1 img{
+
+.foot-1 img {
     width: 10rem;
 }
-.foot-2 ul{
+
+.foot-2 ul {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -730,26 +756,31 @@ footer hr{
     padding-top: 1.5rem;
     padding-bottom: 1rem;
 }
-.foot-2 ul li a{
+
+.foot-2 ul li a {
     text-decoration: none;
     color: #E4E4E7;
     cursor: pointer;
 }
-.foot-3{
+
+.foot-3 {
     display: flex;
     justify-content: center;
     gap: 3rem;
 }
-.foot-icons{
+
+.foot-icons {
     display: flex;
     gap: 0.5rem;
     cursor: pointer;
     padding: 1rem;
 }
-.foot-4{
+
+.foot-4 {
     padding: 1.5rem;
 }
-.foot-4-4{
+
+.foot-4-4 {
     display: flex;
     justify-content: space-between;
     background-color: #191919;
@@ -757,7 +788,10 @@ footer hr{
     border-radius: 5rem;
     color: #B3B3B3;
 }
-.foot-left-4 img{
+
+.foot-left-4 img {
     padding-right: 0.5rem;
     cursor: pointer;
 }
+
+/* footer ends here  */

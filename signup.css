@@ -1,0 +1,285 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #000;
+    color: #fff;
+    /* margin: 2rem 4rem; */
+
+}
+
+/* navbar starts */
+.navbar {
+    padding: 1rem 5rem;
+    padding-bottom: 3rem;
+    margin: 1rem 4rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262626;
+    padding: 0.7rem 2rem;
+    border-radius: 50px;
+
+}
+
+.nav-main {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.right {
+    display: flex;
+    gap: 1rem;
+    color: #fff;
+    align-items: center;
+}
+
+.nav-signup {
+    cursor: pointer;
+}
+.nav-signup a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-login {
+    border-radius: 2rem;
+    background-color: #CAFF33;
+    padding: 1rem 2rem;
+    color: black;
+    cursor: pointer;
+}
+.nav-login a{
+    text-decoration: none;
+}
+/* navbar ends */
+
+/* login starts here  */
+/* .page{
+    position: relative;
+    z-index: 1;
+}
+.page::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 20rem;
+    right: 0;
+    background: url(./assets/login-bg.png) center center;
+    opacity: .3;
+    width: 50%;
+} */
+
+.page{
+    background-image: url(./assets/Loginbg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    width: 72%;
+    margin-left: 13rem;
+    margin-bottom: 50rem;
+}
+
+.login-1 #p1 {
+    color: #CAFF33;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.login-1 #p2 {
+    color: #B3B3B3;
+    display: flex;
+    justify-content: center;
+    padding-top: -20rem;
+}
+
+.login-2{
+    display: flex;
+    flex-direction: column;
+}
+.form-main{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.form{
+    height: 3rem;
+    width: 25rem;
+    background-color: #1a1a1a;
+    border: 0.1rem solid #262626;
+    padding: 1rem;
+    border-radius: 3rem;
+    color: #59595A;
+    font-size:medium;
+    position: relative;
+}
+.show-pass{
+    position: absolute;
+    top: 27rem;
+    left: 69.7rem;
+    cursor: pointer;
+}
+.forgot-pss{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: #E4E4E7;
+    font-size: normal;
+}
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    margin-top:1rem;
+}
+.submit-btn button{
+    padding: 1rem 9rem;
+    background-color: #CAFF33;
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.signup-btn{
+    display: flex;
+    justify-content: center;
+}
+#show-signup{
+    width: fit-content;
+    padding: 1rem 8.8rem;
+    background-color: #262626;
+    border-radius: 3rem;
+    border: 0.1rem solid #333333;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #E4E4E7;
+    text-decoration: none;
+}
+.login-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.logos img{
+    width: 4.5rem;
+    cursor: pointer;
+}
+.img{
+    position: absolute;
+    top: 10.7rem;
+    left: 65.4rem;
+}
+/* login ends here  */
+
+/* signup starts here  */
+
+
+
+
+/* footer starts here  */
+footer {
+    background-color: #1C1C1C;
+    padding: 3rem;
+}
+
+footer hr {
+    width: 100%;
+    border: 1px solid #262626;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-1 img {
+    width: 10rem;
+}
+
+.foot-2 ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.foot-2 ul li a {
+    text-decoration: none;
+    color: #E4E4E7;
+    cursor: pointer;
+}
+
+.foot-3 {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.foot-icons {
+    display: flex;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.foot-4 {
+    padding: 1.5rem;
+}
+
+.foot-4-4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    color: #B3B3B3;
+}
+
+.foot-left-4 img {
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
+
+/* footer ends here  */
